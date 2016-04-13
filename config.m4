@@ -11,7 +11,7 @@ dnl Determine path to ffmpeg libs
 if test "$PHP_FFMPEG" != "no"; then
 
   dnl Default directories to check for ffmpeg headers
-  INC_CHECK_DIRS="/usr/local /usr"
+  INC_CHECK_DIRS="/usr/local /usr /usr/include/ffmpeg"
 
   dnl User has specified using --with=ffmpeg=[dir] a directory where we should
   dnl look for ffmpeg headers.
